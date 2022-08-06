@@ -1,0 +1,466 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tin tức - ShopOnline 2022</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Đặt file style này ở cuối cùng danh sách css -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="tel:0979876678">
+                <i class="bi-phone"></i>
+                Hotline: 0979.876.678
+            </a>
+            <a href="mailto:mrhieu@gmail.com">
+                <i class="bi-envelope"></i>
+                Email: mrhieu@gmail.com
+            </a>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light main-menu">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="assets/images/icons/logo0446.png" />
+            </a>
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#first-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="first-menu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="intro.html">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="product.html" data-bs-toggle="dropdown">
+                            Sản Phẩm
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Điện thoại</a></li>
+                            <li><a class="dropdown-item" href="#">Máy tính bảng</a></li>
+                            <li><a class="dropdown-item" href="#">Laptop</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="blog.html" data-bs-toggle="dropdown">
+                            Tin tức
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Sản phẩm mới</a></li>
+                            <li><a class="dropdown-item" href="#">Đánh giá</a></li>
+                            <li><a class="dropdown-item" href="#">Mẹo hay</a></li>
+                            <li><a class="dropdown-item" href="#">Thế giới công nghệ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Liên hệ</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0 menu-right">
+                    <li class="nav-item dropdown cart-menu">
+                        <a class="nav-link dropdown-toggle" href="/">
+                            <i class="bi-cart-fill"></i>
+                            <span>Giỏ hàng</span>
+                            <span>03</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="mini-cart">
+                                    <strong class="total">Tổng tiền: 0</strong>
+                                    <a class="btn btn-danger btn-checkout" href="#">Tiến hành thanh toán</a>
+                                    <a class="btn btn-light  btn-shoppingcart" href="#">Đi đến giỏ hàng</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown login-menu">
+                        <a class="nav-link dropdown-toggle" href="#">
+                            <i class="bi-person-circle"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                            <li><a class="dropdown-item" href="#">Đăng ký</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg bg-light second-menu">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#second-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="second-menu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            <i class="bi-phone"></i>
+                            Điện thoại
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            <i class="bi-laptop"></i>
+                            Laptop
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            <i class="bi-tablet-landscape"></i>
+                            Tablet
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <i class="bi-signal"></i>
+                            Sản phẩm bán chạy
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <i class="bi-calendar-event"></i>
+                            Khuyến mãi
+                        </a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Recipient's username">
+                        <button class="btn btn-outline-secondary" type="button">
+                            <i class="bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main-heading">
+        <h1>Tin tức</h1>
+    </section>
+
+    <section class="main-breadcrumb">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                <li class="breadcrumb-item"><a href="#">Tin tức</a></li>
+                <li class="breadcrumb-item active">Tin mới</li>
+            </ol>
+        </nav>
+    </section>
+
+    <section class="blog-list-page">
+        <div class="container">
+            <div class="row flex-row-reverse">
+                <div class="col-lg-9 col-12">
+                    <section class="home-blog-list">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="item">
+                                    <a class="avatar" href="#">
+                                        <img src="assets/images/home-blog/blog-1.png" />
+                                    </a>
+                                    <a class="title" href="#">
+                                        5 công thức món ngon với nồi chiên không dầu Xiaomi Mi Smart Air Fryer phải thử ngay
+                                    </a>
+                                    <p class="description">
+                                        Không chỉ dùng trong chế biến những món chiên rán, nồi chiên không dầu xiaomi Mi Smart Air Fryer còn dùng để rã đông thực phẩm và làm nhiều món ăn khác. Cùng khám phá và thực hành ngay nhé.
+                                    </p>
+                                    <div class="meta">
+                                        <span>22/06/2022</span>
+                                        <a href="#">
+                                            Đọc tiếp
+                                            <i class="bi-caret-right-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="item">
+                                    <a class="avatar" href="#">
+                                        <img src="assets/images/home-blog/blog-2.png" />
+                                    </a>
+                                    <a class="title" href="#">
+                                        Samsung Galaxy F13 với pin 6000 mAh và 3 camera 50MP ra mắt, giá từ 3.56 triệu đồng
+                                    </a>
+                                    <p class="description">
+                                        MediaTek vừa tiết lộ chipset cao cấp thế hệ mới của mình, có tên gọi là Dimensity 9000+. Bộ xử lý này đi kèm một số cập nhật quan trọng so với Dimensity 9000.
+                                    </p>
+                                    <div class="meta">
+                                        <span>22/06/2022</span>
+                                        <a href="#">
+                                            Đọc tiếp
+                                            <i class="bi-caret-right-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="item">
+                                    <a class="avatar" href="#">
+                                        <img src="assets/images/home-blog/blog-3.png" />
+                                    </a>
+                                    <a class="title" href="#">
+                                        Đánh giá MacBook Pro M2 2022: Khi con chip mới viết nên sự chuyên nghiệp
+                                    </a>
+                                    <p class="description">
+                                        Vài đánh giá MacBook Pro M2 2022 sơ lược sẽ giúp các bạn nhìn nhận rõ những nâng cấp mà Apple đưa vào bên trong bộ khung vỏ quen thuộc 13 inch đã gắn liền với dòng MacBook Pro kể từ năm 2016.
+                                    </p>
+                                    <div class="meta">
+                                        <span>22/06/2022</span>
+                                        <a href="#">
+                                            Đọc tiếp
+                                            <i class="bi-caret-right-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="item">
+                                    <a class="avatar" href="#">
+                                        <img src="assets/images/home-blog/blog-1.png" />
+                                    </a>
+                                    <a class="title" href="#">
+                                        5 công thức món ngon với nồi chiên không dầu Xiaomi Mi Smart Air Fryer phải thử ngay
+                                    </a>
+                                    <p class="description">
+                                        Không chỉ dùng trong chế biến những món chiên rán, nồi chiên không dầu xiaomi Mi Smart Air Fryer còn dùng để rã đông thực phẩm và làm nhiều món ăn khác. Cùng khám phá và thực hành ngay nhé.
+                                    </p>
+                                    <div class="meta">
+                                        <span>22/06/2022</span>
+                                        <a href="#">
+                                            Đọc tiếp
+                                            <i class="bi-caret-right-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="item">
+                                    <a class="avatar" href="#">
+                                        <img src="assets/images/home-blog/blog-2.png" />
+                                    </a>
+                                    <a class="title" href="#">
+                                        Samsung Galaxy F13 với pin 6000 mAh và 3 camera 50MP ra mắt, giá từ 3.56 triệu đồng
+                                    </a>
+                                    <p class="description">
+                                        MediaTek vừa tiết lộ chipset cao cấp thế hệ mới của mình, có tên gọi là Dimensity 9000+. Bộ xử lý này đi kèm một số cập nhật quan trọng so với Dimensity 9000.
+                                    </p>
+                                    <div class="meta">
+                                        <span>22/06/2022</span>
+                                        <a href="#">
+                                            Đọc tiếp
+                                            <i class="bi-caret-right-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="item">
+                                    <a class="avatar" href="#">
+                                        <img src="assets/images/home-blog/blog-3.png" />
+                                    </a>
+                                    <a class="title" href="#">
+                                        Đánh giá MacBook Pro M2 2022: Khi con chip mới viết nên sự chuyên nghiệp
+                                    </a>
+                                    <p class="description">
+                                        Vài đánh giá MacBook Pro M2 2022 sơ lược sẽ giúp các bạn nhìn nhận rõ những nâng cấp mà Apple đưa vào bên trong bộ khung vỏ quen thuộc 13 inch đã gắn liền với dòng MacBook Pro kể từ năm 2016.
+                                    </p>
+                                    <div class="meta">
+                                        <span>22/06/2022</span>
+                                        <a href="#">
+                                            Đọc tiếp
+                                            <i class="bi-caret-right-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <nav>
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link">
+                                    <i class="bi-arrow-left"></i>
+                                </a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item" aria-current="page">
+                                <a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">
+                                    <i class="bi-arrow-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-12">
+                    Trái
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <section class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 support">
+                        <a class="logo" href="/">
+                            <img src="assets/images/icons/logofooter0446.png" />
+                        </a>
+                        <div class="item">
+                            <span>Tổng đài hỗ trợ khách hàng</span>
+                            <a href="tel:0987447611">
+                                <i class="bi bi-telephone-fill"></i>
+                                0987447611
+                            </a>
+                        </div>
+                        <div class="item">
+                            <span>Tổng đài tư vấn dịch vụ</span>
+                            <a href="tel:0987447611">
+                                <i class="bi bi-telephone-fill"></i>
+                                0987447611
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 info">
+                        <h3>THÔNG TIN</h3>
+                        <ul>
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><a href="#">Quy chế hoạt động</a></li>
+                            <li><a href="#">Chính sách bảo mật</a></li>
+                            <li><a href="#">Cửa hàng online</a></li>
+                            <li><a href="#">Tuyển dụng</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 store">
+                        <h3>HỆ THỐNG CỬA HÀNG</h3>
+                        <div class="item">
+                            <h4>TRỤ SỞ</h4>
+                            <a href="#">
+                                <i class="bi bi-geo-alt"></i>
+                                Số 442 Đội Cấn, Quận Ba Đình, Hà Nội
+                            </a>
+                        </div>
+                        <div class="item">
+                            <h4>HÀ NỘI</h4>
+                            <a href="#">
+                                <i class="bi bi-geo-alt"></i>
+                                Số 266 Đội Cấn, Quận Ba Đình, Hà Nội
+                            </a>
+                        </div>
+                        <div class="item">
+                            <h4>TP. HỒ CHÍ MINH</h4>
+                            <a href="#">
+                                <i class="bi bi-geo-alt"></i>
+                                Số 70 Lữ Gia, Phường 15, Quận 11, TP. Hồ Chí Minh
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 policy">
+                        <h3>QUY ĐỊNH - CHÍNH SÁCH</h3>
+                        <ul>
+                            <li><a href="#">Chính sách giao nhận</a></li>
+                            <li><a href="#">Bảo mật thông tin</a></li>
+                            <li><a href="#">Chính sách đổi trả</a></li>
+                            <li><a href="#">Chế độ bảo hành</a></li>
+                            <li><a href="#">Chính sách thanh toán</a></li>
+                            <li><a href="#">Câu hỏi thường gặp</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-12">
+                        <h3>KẾT NỐI VỚI COMPUTING</h3>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <i class="bi-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="bi-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="bi-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="bi-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <h3>ĐĂNG KÝ NHẬN TIN KHUYẾN MẠI</h3>
+                        <div class="form">
+                            <input class="form-control mb-2" type="text" placeholder="Nhập email của bạn..." />
+                            <a href="#" class="btn btn-danger">Đăng ký</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <h3>CÁC HÌNH THỨC THANH TOÁN</h3>
+                        <ul class="payment">
+                            <li>Visa</li>
+                            <li>Master Card</li>
+                            <li>American Express</li>
+                            <li>Discover Network</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-bottom">
+            © Bản quyền thuộc về <strong>Computing</strong>
+        </section>
+    </footer>
+
+    <script src="assets/scripts/bootstrap.bundle.js"></script>
+    <!-- Đặt file script này ở cuối cùng của danh sách js -->
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>

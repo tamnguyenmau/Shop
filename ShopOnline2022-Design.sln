@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ShopOnline2022-Design", ".", "{0DF4690B-1BAD-4AC4-AECB-BD1D242F9946}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60033"
+		Debug.AspNetCompiler.PhysicalPath = "..\ShopOnline2022-Design\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60033\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60033"
+		Release.AspNetCompiler.PhysicalPath = "..\ShopOnline2022-Design\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60033\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60033"
+		SlnRelativePath = "..\ShopOnline2022-Design\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DF4690B-1BAD-4AC4-AECB-BD1D242F9946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF4690B-1BAD-4AC4-AECB-BD1D242F9946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26C1DC69-36DE-4129-B37A-1C55F82294FE}
+	EndGlobalSection
+EndGlobal
